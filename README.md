@@ -31,8 +31,10 @@ https://github.com/amsedel/semantic_similarity_BERT/blob/main/SICK/get_attention
 
 Once you have the vectors reduced to 2 dimensions, you can perform attention analysis through the GUI option "Load Reduced Vectors."
 
+In the repository, the files reduced to two dimensions for attention analysis are included:
 
-
+`reduced_vectors_att_sick_2.pth`
+`reduced_vectors_att_sts_2.pth`
 
 
 
@@ -48,3 +50,8 @@ Subsequently, you can use a linear autoencoder to reduce to a smaller dimension 
 https://github.com/amsedel/semantic_similarity_BERT/blob/main/STS_Benchmark/PCA_CLS_vectors/Autoencoder_Linear_forCLS_STS_B.ipynb
 
 Note: Due to the size of the SICK set, the free memory in Colab is not sufficient to save the 768-dimensional vectors.
+
+In the repository, there are example files for PCA analysis of the STS-benchmark dataset:
+
+reduced_vectors_32.pth
+pca_CLS_64.pth
