@@ -1,4 +1,21 @@
+# Install project
+
+pip install virtualenv      #Install virtual environment
+
+virtualenv venv     #Create virtual environment on Unix/Linux/macOS
+python -m venv venv     #Create virtual environment on Windows
+
+source venv/bin/activate        # To activate the virtual environment on Unix/Linux systems
+.\venv\Scripts\activate         # To activate the virtual environment on Windows
+
+pip install -r requirements.txt         #Install project dependencies 
+
+deactivate      #Deactivate the virtual environment
+
+
+
 # linguistic-interpretability-of-BERT-with-unsupervised
+
 visual tool in python to perform the analysis of the BERT transformer model through unsupervised learning
 
 For interpretability analysis, it is necessary to train the model to solve semantic similarity using the CLS token (yielding better results compared to proposed aggregation methods and LSTM networks).
@@ -35,8 +52,6 @@ In the repository, the files reduced to two dimensions for attention analysis ar
 
 `reduced_vectors_att_sick_2.pth`
 `reduced_vectors_att_sts_2.pth`
-
-
 
 
 
